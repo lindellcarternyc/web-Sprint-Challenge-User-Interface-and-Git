@@ -66,6 +66,30 @@ p {
     line-height: 1.4;
 }
 
+ header {
+    margin: 20px auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 40px auto;
+}
+
+.navbar nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 85%;
+    font-weight: bold;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -77,6 +101,10 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img {
+    margin-bottom: 20px;
 }
 
 .top-content .text-container {
@@ -112,6 +140,47 @@ p {
     justify-content: center;
 }
 
+/* Colors for boxes ... Can be used for other things! */
+#box-1 {
+    background: teal;
+}
+
+#box-2 {
+    background: gold;
+}
+
+#box-3 {
+    background: cadetblue;
+}
+
+#box-4 {
+    background: coral;
+}
+
+#box-5 {
+    background: crimson;
+}
+
+#box-6 {
+    background: forestgreen;
+}
+
+#box-7 {
+    background: darkorchid;
+}
+
+#box-8 {
+    background: hotpink;
+}
+
+#box-9 {
+    background: indigo;
+}
+
+#box-10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +193,45 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+/* ABOUT PAGE */
+.top-content.about .text-container {
+    width: 100%;
+    /* margin: 5px 0; */
+    padding: 0 1rem;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.about-content__item {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+.about-content__item img,
+.about-content__item p {
+    margin-bottom: 10px;
+}
+
+.about-content__item button {
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0.5rem 1.25rem;
+}
+
+.about-bottom-content {
+    padding: 0 2% 20px;
 }
 
 footer {
