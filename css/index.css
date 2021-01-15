@@ -111,10 +111,6 @@ p {
     padding-bottom: 20px;  
 }
 
-.top-content.about .text-container {
-    width: 100%;
-}
-
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -195,6 +191,41 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+/* ABOUT PAGE */
+.top-content.about .text-container {
+    width: 100%;
+    /* margin: 5px 0; */
+    padding: 0 1rem;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.about-content__item {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+.about-content__item img,
+.about-content__item p {
+    margin-bottom: 10px;
+}
+
+.about-content__item button {
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0.5rem 1.25rem;
 }
 
 footer {
