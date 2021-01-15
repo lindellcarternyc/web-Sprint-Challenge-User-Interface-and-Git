@@ -74,18 +74,20 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 .navbar nav {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .navbar nav a {
     color: black;
     text-decoration: none;
+    font-size: 85%;
+    font-weight: bold;
 }
 
 .container {
@@ -226,6 +228,10 @@ p {
     border: 2px solid black;
     border-radius: 10px;
     padding: 0.5rem 1.25rem;
+}
+
+.about-bottom-content {
+    padding: 0 2% 20px;
 }
 
 footer {
