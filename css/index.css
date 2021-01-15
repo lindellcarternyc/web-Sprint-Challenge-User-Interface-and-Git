@@ -134,6 +134,47 @@ header nav a {
     justify-content: center;
 }
 
+/* Colors for boxes ... Can be used for other things! */
+.backroug-teal {
+    background: teal;
+}
+
+.background-gold {
+    background: gold;
+}
+
+.background-cadetblue {
+    background: cadetblue;
+}
+
+.backround-coral {
+    background: coral;
+}
+
+.background-crimson {
+    background: crimson;
+}
+
+.background-forestgreen {
+    background: forestgreen;
+}
+
+.background-darkorchid {
+    background: darkorchid;
+}
+
+.background-hotpink {
+    background: hotpink;
+}
+
+.background-indigo {
+    background: indigo;
+}
+
+.background-dodgerblue {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
